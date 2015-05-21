@@ -35,12 +35,7 @@
                     "name": "Antonov 12BK",
                     "folder-name": "AN-12BK",
                     "giturl": "https://github.com/HerbyW/AN-12BK.git",
-                    "branches": [
-                        {
-                            "name": "master",
-                            "description": "blah"
-                        }
-                    ]
+                    "branches": []
                 },
                 {
                     "name": "Antonov AN-225-Mrija",
