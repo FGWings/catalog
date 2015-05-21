@@ -1,0 +1,71 @@
+{
+    "hangars": [
+        {
+            "name": "eTeam",
+            "aircrafts": [
+                {
+                    "name": "extra500",
+                    "folder-name": "extra500",
+                    "giturl": "git@gitlab.com:extra500/extra500.git",
+                    "branches": [
+                        {
+                            "name": "FG/3.2.0",
+                            "description": "blah"
+                        },
+                        {
+                            "name": "FG/3.4.0",
+                            "description": "blah"
+                        },
+                        {
+                            "name": "master",
+                            "description": "blah"
+                        },
+                        {
+                            "name": "next",
+                            "description": "blah"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "HerbyW",
+            "aircrafts": [
+                {
+                    "name": "Antonov 12BK",
+                    "folder-name": "AN-12BK",
+                    "giturl": "https://github.com/HerbyW/AN-12BK.git",
+                    "branches": [
+                        {
+                            "name": "master",
+                            "description": "blah"
+                        }
+                    ]
+                },
+                {
+                    "name": "Antonov AN-225-Mrija",
+                    "folder-name": "AN-225-Mrija",
+                    "giturl": "https://github.com/HerbyW/AN-225-Mrija.git",
+                    "branches": [
+                        {
+                            "name": "master",
+                            "description": "blah"
+                        }
+                    ]
+                },
+                {
+                    "name": "Antonov 22A",
+                    "folder-name": "AN-22",
+                    "giturl": "https://github.com/HerbyW/AN-22A.git",
+                    "branches": [
+                        {
+                            "name": "master",
+                            "description": "blah"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+
+}
