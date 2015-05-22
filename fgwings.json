@@ -125,6 +125,44 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "onox",
+            "aircrafts": [
+                {
+                    "name": "V-22",
+                    "folder-name": "V-22",
+                    "giturl": "https://github.com/onox/V-22.git",
+                    "branches": [
+                        {
+                            "name": "master",
+                            "description": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "CVN-70 USS Vinson",
+                    "folder-name": "CVN-70",
+                    "giturl": "https://github.com/onox/CVN-70.git",
+                    "branches": [
+                        {
+                            "name": "master",
+                            "description": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "V-22 / CVN-70 Expansion Pack",
+                    "folder-name": "ExpansionPack",
+                    "giturl": "https://github.com/onox/ExpansionPack.git",
+                    "branches": [
+                        {
+                            "name": "master",
+                            "description": ""
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
