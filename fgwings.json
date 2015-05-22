@@ -1,7 +1,7 @@
 {
     "hangars": [
         {
-            "name": "eTeam",
+            "name": "extra",
             "aircrafts": [
                 {
                     "name": "extra500",
@@ -10,19 +10,19 @@
                     "branches": [
                         {
                             "name": "FG/3.2.0",
-                            "description": "blah"
+                            "description": ""
                         },
                         {
                             "name": "FG/3.4.0",
-                            "description": "blah"
+                            "description": ""
                         },
                         {
                             "name": "master",
-                            "description": "blah"
+                            "description": ""
                         },
                         {
                             "name": "next",
-                            "description": "blah"
+                            "description": ""
                         }
                     ]
                 }
@@ -35,7 +35,12 @@
                     "name": "Antonov 12BK",
                     "folder-name": "AN-12BK",
                     "giturl": "https://github.com/HerbyW/AN-12BK.git",
-                    "branches": []
+                    "branches": [
+                        {
+                            "name": "master",
+                            "description": ""
+                        }
+                    ]
                 },
                 {
                     "name": "Antonov AN-225-Mrija",
@@ -44,7 +49,7 @@
                     "branches": [
                         {
                             "name": "master",
-                            "description": "blah"
+                            "description": ""
                         }
                     ]
                 },
@@ -55,12 +60,71 @@
                     "branches": [
                         {
                             "name": "master",
-                            "description": "blah"
+                            "description": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Lake of Constance",
+            "aircrafts": [
+                {
+                    "name": "707",
+                    "folder-name": "707",
+                    "giturl": "https://github.com/D-MKF1/707.git",
+                    "branches": [
+                        {
+                            "name": "master",
+                            "description": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "Kawa-ZX10R",
+                    "folder-name": "Kawa-ZX10R",
+                    "giturl": "https://github.com/D-MKF1/Kawa-ZX10R.git",
+                    "branches": [
+                        {
+                            "name": "master",
+                            "description": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "LCR-F2",
+                    "folder-name": "LCR",
+                    "giturl": "https://github.com/D-MKF1/LCR.git",
+                    "branches": [
+                        {
+                            "name": "master",
+                            "description": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "Yamaha YZF",
+                    "folder-name": "Yamaha-YZF",
+                    "giturl": "https://github.com/D-MKF1/Yamaha-YZF.git",
+                    "branches": [
+                        {
+                            "name": "master",
+                            "description": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "Suzuki-GSX-R",
+                    "folder-name": "Suzuki-GSX-R",
+                    "giturl": "https://github.com/D-MKF1/Suzuki-GSX-R.git",
+                    "branches": [
+                        {
+                            "name": "master",
+                            "description": ""
                         }
                     ]
                 }
             ]
         }
     ]
-
 }
