@@ -36,9 +36,9 @@
                     "name": "Antonov 12BK",
                     "folder-name": "AN-12BK",
                     "giturl": "https://github.com/HerbyW/AN-12BK.git",
-                    "tags": ["fixed-wing", "turboprop", "cargo", "military", "quad-engine"],
+                    "tags": ["fixed-wing", "turboprop", "cargo", "military", "civilian", "quad-engine"],
                     "description": "Antonov 12BK for Flightgear by HerbyW",
-                    "documentation-link": "https://github.com/HerbyW/AN-12BK",
+                    "documentation-link": "http://wiki.flightgear.org/Antonov_An-12BK",
                     "branches": [
                         {
                             "name": "master",
@@ -50,9 +50,9 @@
                     "name": "Antonov AN-225-Mrija",
                     "folder-name": "AN-225-Mrija",
                     "giturl": "https://github.com/HerbyW/AN-225-Mrija.git",
-                    "tags": ["fixed-wing", "cargo", "wide-body", "military", "quad-engine"],
+                    "tags": ["fixed-wing", "cargo", "wide-body", "military", "civilian", "quad-engine"],
                     "description": "Antonov AN-225-Mrija for Flightgear by HerbyW",
-                    "documentation-link": "https://github.com/HerbyW/AN-225-Mrija",
+                    "documentation-link": "http://wiki.flightgear.org/Antonov_An-225_Mriya",
                     "branches": [
                         {
                             "name": "master",
@@ -64,9 +64,23 @@
                     "name": "Antonov 22A",
                     "folder-name": "AN-22",
                     "giturl": "https://github.com/HerbyW/AN-22A.git",
-                    "tags": ["fixed-wing", "turboprop", "wide-body", "cargo", "military", "quad-engine"],
+                    "tags": ["fixed-wing", "turboprop", "wide-body", "cargo", "civilian", "military", "quad-engine"],
                     "description": "Antonov 22A for Flightgear by HerbyW",
-                    "documentation-link": "https://github.com/HerbyW/AN-22A",
+                    "documentation-link": "http://wiki.flightgear.org/Antonov_An-22A",
+                    "branches": [
+                        {
+                            "name": "master",
+                            "description": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "Tupolev Tu-95MR",
+                    "folder-name": "Tu-95MR",
+                    "giturl": "https://github.com/HerbyW/Tu-95MR.git",
+                    "tags": ["fixed-wing", "turboprop", "military", "quad-engine"],
+                    "description": "Tupolev TU-95 MR for Flightgear by HerbyW",
+                    "documentation-link": "https://github.com/HerbyW/Tu-95MR",
                     "branches": [
                         {
                             "name": "master",
@@ -80,7 +94,7 @@
                     "giturl": "https://github.com/HerbyW/shuttle.git",
                     "tags": ["spacecraft"],
                     "description": "shuttle",
-                    "documentation-link": "https://github.com/HerbyW/shuttle",
+                    "documentation-link": "http://wiki.flightgear.org/Space_Shuttle",
                     "branches": [
                         {
                             "name": "master",
@@ -92,11 +106,15 @@
         },
         {
             "name": "Lake of Constance",
+            "hangar-site": "http://www.marc-kraus.de/fg/",
             "aircrafts": [
                 {
-                    "name": "707",
+                    "name": "Boeing 707",
                     "folder-name": "707",
                     "giturl": "https://github.com/D-MKF1/707.git",
+                    "tags": ["fixed-wing", "civilian", "wide-body", "quad-engine", "double-deck"],
+                    "description": "FG Aircraft | 707 by Marc Kraus : Originally by Innis Cunnigham http://www.marc-kraus.de/fg/",
+                    "documentation-link": "https://github.com/D-MKF1/707",
                     "branches": [
                         {
                             "name": "master",
@@ -390,7 +408,7 @@
                     "name": "Boeing 757-200",
                     "folder-name": "757-200",
                     "giturl": "https://github.com/dogsaysmoo/757-200.git",
-                    "tags": ["fixed-wing", "commercial", "narrow-body", "twin-engine"],
+                    "tags": ["fixed-wing", "civilian", "narrow-body", "twin-engine"],
                     "description": "Boeing 757-200",
                     "documentation-link": "https://github.com/dogsaysmoo/757-200",
                     "branches": [
@@ -408,7 +426,7 @@
                     "name": "Boeing 747-8i / 747-8F",
                     "folder-name": "747-8i",
                     "giturl": "https://github.com/dogsaysmoo/747-8i.git",
-                    "tags": ["fixed-wing", "commercial", "wide-body", "quad-engine", "double-deck"],
+                    "tags": ["fixed-wing", "civilian", "wide-body", "quad-engine", "double-deck"],
                     "description": "Boeing 747-8 Intercontinental and Freighter",
                     "documentation-link": "https://github.com/dogsaysmoo/747-8i",
                     "branches": [
@@ -430,7 +448,7 @@
                     "name": "Douglas DC-6B",
                     "folder-name": "dc6",
                     "giturl": "https://github.com/dogsaysmoo/dc6.git",
-                    "tags": ["fixed-wing","piston","quad-engine","commercial"],
+                    "tags": ["fixed-wing","piston","quad-engine","civilian"],
                     "description": "Douglas DC-6B",
                     "documentation-link": "https://github.com/dogsaysmoo/dc6",
                     "branches": [
@@ -444,7 +462,7 @@
                     "name": "McDonnell Douglas MD-11",
                     "folder-name": "md-11",
                     "giturl": "https://github.com/dogsaysmoo/md-11.git",
-                    "tags": ["fixed-wing", "wide-body", "commercial", "three-engine"],
+                    "tags": ["fixed-wing", "wide-body", "civilian", "three-engine"],
                     "description": "MD-11 for Flightgear",
                     "documentation-link": "https://github.com/dogsaysmoo/md-11",
                     "branches": [
@@ -465,7 +483,7 @@
                     "name": "ATR-75-500",
                     "folder-name": "ATR-72-500",
                     "giturl": "https://github.com/Skyop/CRJ700-family.git",
-                    "tags": ["fixed-wing", "turboprop", "commercial", "twin-engine"],
+                    "tags": ["fixed-wing", "turboprop", "civilian", "twin-engine"],
                     "description": "Flightgear ATR-72-500 Original FDM and Model by Ryan Miller",
                     "documentation-link": "https://github.com/GlobalVirtualAir/ATR-72-500",
                     "branches": [
@@ -485,7 +503,7 @@
                     "name": "Bombardier CRJ700",
                     "folder-name": "CRJ700-family",
                     "giturl": "https://github.com/Skyop/CRJ700-family.git",
-                    "tags": ["fixed-wing", "commercial", "twin-engine", "narrow-body"],
+                    "tags": ["fixed-wing", "civilian", "twin-engine", "narrow-body"],
                     "description": "The Bombardier CRJ700 series for FlightGear Flight Simulator.",
                     "documentation-link": "https://github.com/Skyop/CRJ700-family",
                     "branches": [
@@ -499,7 +517,7 @@
                     "name": "McDonnell Douglas DC-10-30",
                     "folder-name": "DC-10-30",
                     "giturl": "https://github.com/Skyop/DC-10-30.git",
-                    "tags": ["fixed-wing", "wide-body", "commercial", "three-engine"],
+                    "tags": ["fixed-wing", "wide-body", "civilian", "three-engine"],
                     "description": "The McDonnell Douglas DC-10-30 and variants for FlightGear Flight Simulator. (Continued from Gitorious.)",
                     "documentation-link": "https://github.com/Skyop/DC-10-30",
                     "branches": [
@@ -519,7 +537,7 @@
                     "name": "Airbus A320neo",
                     "folder-name": "A320neo",
                     "giturl": "https://github.com/artix75/A320neo.git",
-                    "tags": ["fixed-wing", "narrow-body", "commercial", "twin-engine"],
+                    "tags": ["fixed-wing", "narrow-body", "civilian", "twin-engine"],
                     "description": "Airbus A320neo",
                     "documentation-link": "https://github.com/artix75/A320neo",
                     "branches": [
@@ -533,7 +551,7 @@
                     "name": "Airbus A330-200",
                     "folder-name": "A330-200",
                     "giturl": "https://github.com/artix75/A330-200.git",
-                    "tags": ["fixed-wing", "wide-body", "commercial", "twin-engine"],
+                    "tags": ["fixed-wing", "wide-body", "civilian", "twin-engine"],
                     "description": "Airbus A330-200",
                     "documentation-link": "https://github.com/artix75/A330-200",
                     "branches": [
@@ -553,7 +571,7 @@
                     "name": "Tupolev Tu-154b",
                     "folder-name": "tu154b",
                     "giturl": "https://github.com/yuriknsk/tu154b.git",
-"tags": [""],
+                    "tags": [""],
                     "description": "Tupolev Tu-154b airliner model for FlightGear",
                     "documentation-link": "https://github.com/yuriknsk/tu154b",
                     "branches": [
