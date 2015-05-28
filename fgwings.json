@@ -80,7 +80,7 @@
                     "giturl": "https://github.com/HerbyW/shuttle.git",
                     "tags": ["spacecraft"],
                     "description": "shuttle",
-                    "documentation-link": "https://github.com/HerbyW/Ashuttle",
+                    "documentation-link": "https://github.com/HerbyW/shuttle",
                     "branches": [
                         {
                             "name": "master",
@@ -383,7 +383,7 @@
             ]
         },
         {
-            "name": "dogsaysmoo",
+            "name": "tikibar",
             "hangar-site": "https://github.com/dogsaysmoo",
             "aircrafts": [
                 {
@@ -405,7 +405,7 @@
                     ]
                 },
                 {
-                    "name": "Boeing 747-8 Intercontinental and Freighter",
+                    "name": "Boeing 747-8i / 747-8F",
                     "folder-name": "747-8i",
                     "giturl": "https://github.com/dogsaysmoo/747-8i.git",
                     "tags": ["fixed-wing", "commercial", "wide-body", "quad-engine", "double-deck"],
