@@ -894,13 +894,27 @@
             ]
         },
         {
-            "name": "",
-            "hangar-site": "",
+            "name": "patten",
+            "hangar-site": "http://pattenflightgear.wifeo.com/",
             "aircrafts": [
                 {
-                    "name": "",
-                    "folder-name": "",
-                    "giturl": "",
+                    "name": "de Havilland Canada DHC-6 Twin Otter",
+                    "folder-name": "dhc6",
+                    "giturl": "https://github.com/FGWingsAircrafts/patten-dhc6",
+                    "tags": [""],
+                    "description": "",
+                    "documentation-link": "",
+                    "branches": [
+                        {
+                            "name": "master",
+                            "description": ""
+                        },
+                    ]
+                },
+                {
+                    "name": "Piper Aerostar 700",
+                    "folder-name": "Aerostar-700",
+                    "giturl": "https://github.com/FGWingsAircrafts/patten-aerostar-700",
                     "tags": [""],
                     "description": "",
                     "documentation-link": "",
