@@ -8,7 +8,7 @@ Sample Syntax:
 
 
 
-```
+``` javascript
 {
   "name": "HerbyW",
   "hangar-site": "https://github.com/HerbyW",
