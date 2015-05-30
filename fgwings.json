@@ -4,7 +4,7 @@
             "name": "extra",
             "aircrafts": [
                 {
-                    "name": "extra500",
+                    "name": "Extra 500",
                     "folder-name": "extra500",
                     "giturl": "git@gitlab.com:extra500/extra500.git",
                     "branches": [
@@ -912,7 +912,7 @@
             "hangar-site": "http://pattenflightgear.wifeo.com/",
             "aircrafts": [
                 {
-                    "name": "de Havilland Canada DHC-6 Twin Otter",
+                    "name": "de Havilland DHC-6 Twin Otter",
                     "folder-name": "dhc6",
                     "giturl": "https://github.com/FGWingsAircrafts/patten-dhc6",
                     "tags": [""],
