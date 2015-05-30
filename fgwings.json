@@ -942,6 +942,30 @@
             ]
         },
         {
+            "name": "aaa FGWings Test",
+            "hangar-site": "",
+            "aircrafts": [
+                {
+                    "name": "test",
+                    "folder-name": "test",
+                    "giturl": "https://github.com/mdgrk/test",
+                    "tags": [""],
+                    "description": "",
+                    "documentation-link": "",
+                    "branches": [
+                        {
+                            "name": "master",
+                            "description": ""
+                        },
+                        {
+                            "name": "test",
+                            "description": ""
+                        },
+                    ]
+                }
+            ]
+        },
+        {
             "name": "",
             "hangar-site": "",
             "aircrafts": [
@@ -961,8 +985,6 @@
                 }
             ]
         }
-        
-        
     ]
 }
 
