@@ -89,7 +89,7 @@
                     ]
                 },
                 {
-                    "name": "shuttle",
+                    "name": "Shuttle",
                     "folder-name": "shuttle",
                     "giturl": "https://github.com/HerbyW/shuttle.git",
                     "tags": ["spacecraft"],
@@ -112,7 +112,7 @@
                     "name": "Boeing 707",
                     "folder-name": "707",
                     "giturl": "https://github.com/D-MKF1/707.git",
-                    "tags": ["fixed-wing", "civilian", "wide-body", "quad-engine", "double-deck"],
+                    "tags": ["fixed-wing", "civilian", "wide-body", "quad-engine"],
                     "description": "FG Aircraft | 707 by Marc Kraus : Originally by Innis Cunnigham http://www.marc-kraus.de/fg/",
                     "documentation-link": "https://github.com/D-MKF1/707",
                     "branches": [
@@ -126,6 +126,9 @@
                     "name": "Kawa-ZX10R",
                     "folder-name": "Kawa-ZX10R",
                     "giturl": "https://github.com/D-MKF1/Kawa-ZX10R.git",
+                    "tags": ["motorcycle"],
+                    "description": "FG Aircraft | Motorcycle Kawa-ZX10R from Lake of Constance's Hangar (Marc Kraus)",
+                    "documentation-link": "https://github.com/D-MKF1/Kawa-ZX10R",
                     "branches": [
                         {
                             "name": "master",
@@ -137,6 +140,9 @@
                     "name": "LCR-F2",
                     "folder-name": "LCR",
                     "giturl": "https://github.com/D-MKF1/LCR.git",
+                    "tags": ["motorcycle"],
+                    "description": "FG Aircraft | Motorcycle LCR-F2 from Lake of Constance's Hangar (Marc Kraus)",
+                    "documentation-link": "https://github.com/D-MKF1/LCR",
                     "branches": [
                         {
                             "name": "master",
@@ -148,6 +154,9 @@
                     "name": "Yamaha YZF",
                     "folder-name": "Yamaha-YZF",
                     "giturl": "https://github.com/D-MKF1/Yamaha-YZF.git",
+                    "tags": ["motorcycle"],
+                    "description": "FG Aircraft | Yamaha YZF by Mark Kraus",
+                    "documentation-link": "https://github.com/D-MKF1/Yamaha-YZF",
                     "branches": [
                         {
                             "name": "master",
@@ -156,9 +165,12 @@
                     ]
                 },
                 {
-                    "name": "Suzuki-GSX-R",
+                    "name": "Suzuki GSX-R",
                     "folder-name": "Suzuki-GSX-R",
                     "giturl": "https://github.com/D-MKF1/Suzuki-GSX-R.git",
+                    "tags": ["motorcycle"],
+                    "description": "FG Aircraft | Motorcycle Suzuki-GSX-R from Lake of Constance's Hangar (Marc Kraus)",
+                    "documentation-link": "https://github.com/D-MKF1/Suzuki-GSX-R",
                     "branches": [
                         {
                             "name": "master",
@@ -170,11 +182,15 @@
         },
         {
             "name": "onox",
+            "hangar-site": "https://github.com/onox",
             "aircrafts": [
                 {
-                    "name": "V-22",
+                    "name": "Bell Boeing V-22 Osprey",
                     "folder-name": "V-22",
                     "giturl": "https://github.com/onox/V-22.git",
+                    "tags": ["tiltrotor", "military", "VTOL", "STOL"],
+                    "description": "CV-22 and MV-22 Osprey aircraft for FlightGear.",
+                    "documentation-link": "https://github.com/onox/V-22",
                     "branches": [
                         {
                             "name": "master",
@@ -183,9 +199,12 @@
                     ]
                 },
                 {
-                    "name": "CVN-70 USS Vinson",
+                    "name": "USS Carl Vinson (CVN-70)",
                     "folder-name": "CVN-70",
                     "giturl": "https://github.com/onox/CVN-70.git",
+                    "tags": ["ship", "military", "carrier"],
+                    "description": "CVN-70 USS Vinson for FlightGear.",
+                    "documentation-link": "https://github.com/onox/CVN-70",
                     "branches": [
                         {
                             "name": "master",
@@ -197,6 +216,9 @@
                     "name": "V-22 / CVN-70 Expansion Pack",
                     "folder-name": "ExpansionPack",
                     "giturl": "https://github.com/onox/ExpansionPack.git",
+                    "tags": ["pack"],
+                    "description": "Expansion pack for FlightGear aircraft.",
+                    "documentation-link": "http://onox.github.io/ExpansionPack/",
                     "branches": [
                         {
                             "name": "master",
@@ -208,11 +230,15 @@
         },
         {
             "name": "Juanvvc",
+            "hangar-site": "https://github.com/Juanvvc",
             "aircrafts": [
                 {
-                    "name": "c172p-detailed",
+                    "name": "Cessna C172p (detailed)",
                     "folder-name": "c172p-detailed",
                     "giturl": "https://github.com/Juanvvc/c172p-detailed.git",
+                    "tags": ["fixed-wing", "general-aviation"],
+                    "description": "A high detailed version of the C172P aircraft for FlightGear",
+                    "documentation-link": "https://github.com/Juanvvc/c172p-detailed",
                     "branches": [
                         {
                             "name": "master",
@@ -477,12 +503,12 @@
         },
         {
             "name": "GlobalVirtualAir",
-            "hangar-site": "https://github.com/Skyop",
+            "hangar-site": "http://www.globalvirtualair.com/",
             "aircrafts": [
                 {
-                    "name": "ATR-75-500",
+                    "name": "ATR-72-500",
                     "folder-name": "ATR-72-500",
-                    "giturl": "https://github.com/Skyop/CRJ700-family.git",
+                    "giturl": "https://github.com/GlobalVirtualAir/ATR-72-500.git",
                     "tags": ["fixed-wing", "turboprop", "civilian", "twin-engine"],
                     "description": "Flightgear ATR-72-500 Original FDM and Model by Ryan Miller",
                     "documentation-link": "https://github.com/GlobalVirtualAir/ATR-72-500",
@@ -571,9 +597,313 @@
                     "name": "Tupolev Tu-154b",
                     "folder-name": "tu154b",
                     "giturl": "https://github.com/yuriknsk/tu154b.git",
-                    "tags": [""],
+                    "tags": ["fixed-wing", "civilian", "tri-engine", "narrow-body"],
                     "description": "Tupolev Tu-154b airliner model for FlightGear",
                     "documentation-link": "https://github.com/yuriknsk/tu154b",
+                    "branches": [
+                        {
+                            "name": "master",
+                            "description": ""
+                        },
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "kalebheitzman",
+            "hangar-site": "https://github.com/kalebheitzman",
+            "aircrafts": [
+                {
+                    "name": "PA-236 Piper Dakota",
+                    "folder-name": "pa28-236",
+                    "giturl": "https://github.com/kalebheitzman/pa28-236.git",
+                    "tags": ["fixed-wing", "general-aviation"],
+                    "description": "PA-236 Piper Dakota for FlightGear",
+                    "documentation-link": "https://github.com/kalebheitzman/pa28-236",
+                    "branches": [
+                        {
+                            "name": "master",
+                            "description": ""
+                        },
+                    ]
+                },
+                {
+                    "name": "Lancair Legacy",
+                    "folder-name": "lancair-legacy",
+                    "giturl": "https://github.com/kalebheitzman/lancair-legacy.git",
+                    "tags": ["fixed-wing", "general-aviation"],
+                    "description": "Lancair Legacy for FlightGear",
+                    "documentation-link": "https://github.com/kalebheitzman/lancair-legacy",
+                    "branches": [
+                        {
+                            "name": "master",
+                            "description": ""
+                        },
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "flyingfisch",
+            "hangar-site": "https://github.com/flyingfisch",
+            "aircrafts": [
+                {
+                    "name": "Piper 24-250",
+                    "folder-name": "pa24-250",
+                    "giturl": "https://github.com/flyingfisch/pa24-250.git",
+                    "tags": ["fixed-wing", "general-aviation"],
+                    "description": "Piper 24-250 updated with livery support and other added touches",
+                    "documentation-link": "https://github.com/flyingfisch/pa24-250",
+                    "branches": [
+                        {
+                            "name": "master",
+                            "description": ""
+                        },
+                    ]
+                },
+                {
+                    "name": "Beechcraft V35 Bonanza",
+                    "folder-name": "pa24-250",
+                    "giturl": "https://github.com/flyingfisch/beech-v35.git",
+                    "tags": ["fixed-wing", "general-aviation"],
+                    "description": "Beechcraft V35 Bonanza for flightgear",
+                    "documentation-link": "https://github.com/flyingfisch/beech-v35",
+                    "branches": [
+                        {
+                            "name": "master",
+                            "description": ""
+                        },
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "soitanen",
+            "hangar-site": "https://github.com/soitanen",
+            "aircrafts": [
+                {
+                    "name": "Antonov An-24B",
+                    "folder-name": "an24b",
+                    "giturl": "https://github.com/soitanen/an24b.git",
+                    "tags": ["fixed-wing", "twin-engine", "turboprop", "civilian"],
+                    "description": "",
+                    "documentation-link": "https://github.com/soitanen/an24b",
+                    "branches": [
+                        {
+                            "name": "master",
+                            "description": ""
+                        },
+                    ]
+                },
+                {
+                    "name": "Boeing 737-300",
+                    "folder-name": "an24b",
+                    "giturl": "https://github.com/soitanen/737-300.git",
+                    "tags": ["fixed-wing", "twin-engine", "narrow-body", "civilian"],
+                    "description": "Boeing 737-300 for FlightGear",
+                    "documentation-link": "https://github.com/soitanen/737-300",
+                    "branches": [
+                        {
+                            "name": "master",
+                            "description": ""
+                        },
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "NikolaiVChr",
+            "hangar-site": "https://sites.google.com/site/fghangar/",
+            "aircrafts": [
+                {
+                    "name": "Saab JA-37 Viggen",
+                    "folder-name": "JA37",
+                    "giturl": "https://github.com/FGWingsAircrafts/flightgear-saab-ja-37-viggen.git",
+                    "tags": ["fixed-wing", "military", "fighter"],
+                    "description": "Saab JA-37 Viggen for Flightgear flight simulator",
+                    "documentation-link": "http://wiki.flightgear.org/Saab_JA-37_Viggen",
+                    "branches": [
+                        {
+                            "name": "master",
+                            "description": ""
+                        },
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "gagarin",
+            "hangar-site": "https://github.com/gagarin-vostok",
+            "aircrafts": [
+                {
+                    "name": "Vostok-1",
+                    "folder-name": "Vostok-1",
+                    "giturl": "https://github.com/gagarin-vostok/FlightGearVostok-1.git",
+                    "tags": ["spacecraft"],
+                    "description": "FlightGear Vostok-1",
+                    "documentation-link": "http://wiki.flightgear.org/Vostok-1",
+                    "branches": [
+                        {
+                            "name": "master",
+                            "description": ""
+                        },
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "godarklight",
+            "hangar-site": "https://github.com/godarklight",
+            "aircrafts": [
+                {
+                    "name": "Aérospatiale-BAC Concorde",
+                    "folder-name": "concorde",
+                    "giturl": "https://github.com/godarklight/concorde.git",
+                    "tags": ["fixed-wing", "civilian", "supersonic"],
+                    "description": "Improving the concorde for flightgear.",
+                    "documentation-link": "https://github.com/godarklight/concorde",
+                    "branches": [
+                        {
+                            "name": "master",
+                            "description": ""
+                        },
+                        {
+                            "name": "devel",
+                            "description": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Mercenary-Mercury",
+            "hangar-site": "https://github.com/Mercenary-Mercury",
+            "aircrafts": [
+                {
+                    "name": "MiG-29 (9-12)",
+                    "folder-name": "MiG-29_9-12",
+                    "giturl": "https://github.com/Mercenary-Mercury/MiG-29_9-12",
+                    "tags": ["fixed-wing", "military", "fighter"],
+                    "description": "Модель МиГ-29 (9-12) для FlightGear",
+                    "documentation-link": "https://github.com/Mercenary-Mercury/MiG-29_9-12",
+                    "branches": [
+                        {
+                            "name": "master",
+                            "description": ""
+                        },
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "ACJZA",
+            "hangar-site": "https://github.com/ACJZA",
+            "aircrafts": [
+                {
+                    "name": "Boeing 737-800",
+                    "folder-name": "B737-800",
+                    "giturl": "https://github.com/ACJZA/B737-800.git",
+                    "tags": ["fixed-wing", "civilian", "twin-engine", "narrow-body"],
+                    "description": "",
+                    "documentation-link": "https://github.com/ACJZA/B737-800",
+                    "branches": [
+                        {
+                            "name": "master",
+                            "description": ""
+                        },
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "jormapaappa1235",
+            "hangar-site": "https://github.com/jormapaappa1235",
+            "aircrafts": [
+                {
+                    "name": "McDonnell Douglas MD-11",
+                    "folder-name": "md-11",
+                    "giturl": "https://github.com/jormapaappa1235/md-11.git",
+                    "tags": ["fixed-wing", "wide-body", "civilian", "three-engine"],
+                    "description": "MD-11 for Flightgear",
+                    "documentation-link": "https://github.com/jormapaappa1235/md-11",
+                    "branches": [
+                        {
+                            "name": "master",
+                            "description": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Sbyx13",
+            "hangar-site": "https://github.com/Sbyx13",
+            "aircrafts": [
+                {
+                    "name": "Airbus A350XWB",
+                    "folder-name": "A350XWB",
+                    "giturl": "https://github.com/Sbyx13/A350XWB.git",
+                    "tags": ["fixed-wing", "civilian", "wide-body", "twin-engine"],
+                    "description": "Airbus A350XWB",
+                    "documentation-link": "https://github.com/Sbyx13/A350XWB",
+                    "branches": [
+                        {
+                            "name": "master",
+                            "description": ""
+                        },
+                    ]
+                },
+                {
+                    "name": "Boeing 727-230",
+                    "folder-name": "727-230",
+                    "giturl": "https://github.com/Sbyx13/727-230.git",
+                    "tags": ["fixed-wing", "civilian", "narrow-body", "twin-engine"],
+                    "description": "Improving the 727-230 for FlightGear",
+                    "documentation-link": "https://github.com/Sbyx13/727-230",
+                    "branches": [
+                        {
+                            "name": "master",
+                            "description": ""
+                        },
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "ac001",
+            "hangar-site": "https://github.com/ac001",
+            "aircrafts": [
+                {
+                    "name": "Boeing 787",
+                    "folder-name": "787",
+                    "giturl": "https://github.com/ac001/787.git",
+                    "tags": ["fixed-wing", "civilian", "wide-body", "twin-engine"],
+                    "description": "FlightGear's 787 (pete's working copy)",
+                    "documentation-link": "https://github.com/ac001/787",
+                    "branches": [
+                        {
+                            "name": "master",
+                            "description": ""
+                        },
+                        {
+                            "name": "ac001",
+                            "description": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "",
+            "hangar-site": "",
+            "aircrafts": [
+                {
+                    "name": "",
+                    "folder-name": "",
+                    "giturl": "",
+                    "tags": [""],
+                    "description": "",
+                    "documentation-link": "",
                     "branches": [
                         {
                             "name": "master",
@@ -602,28 +932,7 @@
                     ]
                 }
             ]
-        },
-        {
-            "name": "kalebheitzman",
-            "hangar-site": "https://github.com/kalebheitzman",
-            "aircrafts": [
-                {
-                    "name": "PA-236 Piper Dakota",
-                    "folder-name": "pa28-236",
-                    "giturl": "https://github.com/kalebheitzman/pa28-236.git",
-                    "tags": ["fixed-wing", "general-aviation"],
-                    "description": "PA-236 Piper Dakota for FlightGear",
-                    "documentation-link": "https://github.com/kalebheitzman/pa28-236",
-                    "branches": [
-                        {
-                            "name": "master",
-                            "description": ""
-                        },
-                    ]
-                }
-            ]
         }
-        
         
         
     ]
