@@ -832,7 +832,21 @@
                             "description": ""
                         }
                     ]
-                }
+                },
+                {
+                    "name": "Airbus A350XWB",
+                    "folder-name": "A350XWB",
+                    "giturl": "https://github.com/jormapaappa1235/A350XWB.git",
+                    "tags": ["fixed-wing", "civilian", "wide-body", "twin-engine"],
+                    "description": "Airbus A350XWB",
+                    "documentation-link": "https://github.com/jormapaappa1235/A350XWB",
+                    "branches": [
+                        {
+                            "name": "master",
+                            "description": ""
+                        },
+                    ]
+                },
             ]
         },
         {
