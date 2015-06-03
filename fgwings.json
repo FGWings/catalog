@@ -1,4 +1,6 @@
 {
+    "catalog-name": "FGWings",
+    "FGWings-version": 0.1,
     "hangars": [
         {
             "name": "extra",
